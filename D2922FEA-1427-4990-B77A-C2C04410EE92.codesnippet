@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazy_label</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel *)propertyName {
+    if (!_propertyName) {
+        _propertyName = [[UILabel alloc] initWithFrame:CGRectZero];
+        _propertyName.font = CDUIFontMake(20);
+        _propertyName.textColor = UIColorMakeWithHex(@"#E77F09");
+        //        _propertyName.textAlignment = NSTextAlignmentCenter;
+        //        _propertyName.qmui_lineHeight = CDREALVALUE_WIDTH(22);
+    }
+    return _propertyName;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D2922FEA-1427-4990-B77A-C2C04410EE92</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>懒加载UILabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

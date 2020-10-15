@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazy_image</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)propertyName {
+    if (!_propertyName) {
+        _propertyName = [[UIImageView alloc] initWithFrame:CGRectZero];
+        _propertyName.clipsToBounds = true;
+        _propertyName.contentMode = UIViewContentModeScaleAspectFill;
+        _propertyName.image = [UIImage found_one];
+    }
+    return _propertyName;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1B5E81D5-2F81-4A37-A6B1-A2E0EDABFD19</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>懒加载UIImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

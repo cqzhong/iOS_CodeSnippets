@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lazy_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (QMUIButton *)propertyName {
+    if (!_propertyName) {
+        _propertyName = [[QMUIButton alloc] qmui_initWithImage:nil title:@"title"];
+        _propertyName.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        [_propertyName addTarget:self action:@selector(explainButtonEvent) forControlEvents:UIControlEventTouchUpInside];
+        [_propertyName setTitleColor:UIColorMakeWithHex(@"#FFFFFF") forState:UIControlStateNormal];
+        _propertyName.backgroundColor = [UIColor colorWithGradientStyle:UIGradientStyleTopToBottom withFrame:_explainButton.frame andColors:@[UIColorMakeWithHex(@"#FFD93E"), UIColorMakeWithHex(@"#FF9100")]];
+        [_propertyName setImage:[UIImage read_book] forState:UIControlStateNormal];
+        _propertyName.spacingBetweenImageAndTitle = CDREALVALUE_WIDTH(5);
+        _propertyName.imagePosition = QMUIButtonImagePositionLeft;
+    }
+    return _propertyName;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C4B8A506-4A50-4C00-B9C3-172E3594A49B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>懒记载QMUIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
