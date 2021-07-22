@@ -1,6 +1,6 @@
 # iOS_CodeSnippets
 
-用于 Xcode日常开发 的 iOS 通用代码片段集
+用于 Xcode 日常开发 的 iOS 通用代码片段集
 
 ## 使用方式
 
@@ -10,7 +10,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 ```bash
 cd ~/Library/Developer/Xcode/UserData/CodeSnippets
-git clone https://github.com/cqzhong/iOS_CodeSnippets.git ./
+git clone https://github.com/cqzhong/iOS_CodeSnippets.git CodeSnippets
 ```
 
 注意，Xcode 对每一段 Code Snippet 都有规定适用的语言（Objective-C、Objective-C++、Swift、...）和作用域（如 Class 的 Interface 定义内、Class 的 Implementation 内、方法体内、...），所以测试某段 Code Snippet 不生效时请注意你当前是否处于不匹配的位置。
