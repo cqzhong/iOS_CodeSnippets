@@ -9,7 +9,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 为了方便更新，建议直接将 iOS CodeSnippets clone 到这个目录内（注意，不是在 CodeSnippets 里创建一个目录，这里不支持子目录）：
 
 ```bash
-cd ~/Library/Developer/Xcode/UserData/CodeSnippets
+cd ~/Library/Developer/Xcode/UserData
 git clone https://github.com/cqzhong/iOS_CodeSnippets.git CodeSnippets
 ```
 
